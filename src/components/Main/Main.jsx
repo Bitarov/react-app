@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './Main.css';
+import styles from './Main.css';
 
 const Main = ({ children }) => (
   <div className="main">
-    <header className="main__header">
+    <header className={styles.mainHeader}>
       <input placeholder="Search Apollo Docs" />
     </header>
     <section className="main__section">
