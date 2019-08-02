@@ -4,10 +4,12 @@ import './Transport.css';
 class Transport extends Component {
   render() {
     const id = this.props.match.params.id;
-    console.log('match', this.props.match);
+    // console.log('match', this.props.match);
     
     return (
-      <div>{id}</div>
+      <>
+        <div>{id}</div>
+      </>
     );
   }
 }

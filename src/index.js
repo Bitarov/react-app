@@ -10,9 +10,9 @@ import Transport from './components/Transport/Transport';
 ReactDOM.render((
   <BrowserRouter>
     <App>
-      <Switch>
+      {/* <Switch> */}
         <Route path='/:id' component={Transport} />
-      </Switch>
+      {/* </Switch> */}
     </App>
   </BrowserRouter>
 ), document.getElementById('root'));
