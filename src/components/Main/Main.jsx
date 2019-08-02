@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Main.css';
 
-const Main = () => (
+const Main = ({ children }) => (
   <div className="main">
-    <header class="main__header">
+    <header className="main__header">
       <input placeholder="Search Apollo Docs" />
     </header>
     <section className="main__section">
@@ -12,7 +12,7 @@ const Main = () => (
       <hr/>
       <article className="main__article">
         <div id="data">
-
+          {children}
         </div>
       </article>
       <div id="navigation">

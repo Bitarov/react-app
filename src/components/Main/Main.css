@@ -39,6 +39,7 @@
   margin-right: 274px;
 }
 
+/* 
 #data > div {
   display: none;
 }
@@ -55,8 +56,9 @@
   margin: 30px 0 15px;
   line-height: 1.5;
 }
+ */
 
-#navigation {
+ #navigation {
   position: absolute;
   right: 64px;
   box-sizing: border-box;

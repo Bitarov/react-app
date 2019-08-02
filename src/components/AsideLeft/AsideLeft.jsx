@@ -31,7 +31,7 @@ const Menu = () => (
     <nav>
       <ul>
         {TRANSPORTS.map( ({ id, title }) =>
-          <li id={id} className="page">
+          <li key={id} className="page">
             <Link to={`/${id}`} data-transport={id}>{title}</Link>
           </li>
         )}
@@ -41,7 +41,7 @@ const Menu = () => (
 );
 
 const AsideLeft = () => (
-  <div class="aside-left">
+  <div className="aside-left">
     <div className="aside-left__header">
       <a href="index.html" className="active"><img src="img/logo.png" alt="logo" />Apollo Docs</a>
     </div>

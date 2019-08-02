@@ -9,8 +9,9 @@ import Main from '../components/Main/Main';
 const App = ({ children }) => (
   <div className="app">
     <AsideLeft />
-    <Main />
-    {/* {children} */}
+    <Main>
+      {children}
+    </Main>
   </div>
 )
 
