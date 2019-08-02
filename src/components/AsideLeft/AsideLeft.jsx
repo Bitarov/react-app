@@ -1,6 +1,7 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './AsideLeft.css';
+
 
 const TRANSPORTS = [
   {
@@ -31,7 +32,7 @@ const Menu = () => (
       <ul>
         {TRANSPORTS.map( ({ id, title }) =>
           <li id={id} className="page">
-            <a href="#" data-transport={id}>{title}</a>
+            <Link to={`/${id}`} data-transport={id}>{title}</Link>
           </li>
         )}
       </ul>
