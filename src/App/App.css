@@ -1,0 +1,5 @@
+.app {
+	display: flex;
+	/*flex-direction: row;*/
+	font-family: 'Source Sans Pro', sans-serif;
+}

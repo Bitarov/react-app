@@ -1,0 +1,40 @@
+.aside-left {
+	position: fixed;
+	box-sizing: border-box;
+	width: 300px;
+	height: 100%;
+	border-right: 1px solid #c5c5c5;
+	/*padding-right: 10px;*/
+}
+
+.aside-left__header {
+  height: 64px;
+  border-bottom: 1px solid #c5c5c5;
+  padding: 0 20px;
+  line-height: 64px;
+  font-size: 20px;
+}
+
+.aside-left__header a {
+  display: flex;
+  align-items: center;
+}
+
+.aside-left__menu {
+  padding-left: 20px;
+}
+
+.page {
+  line-height: 64px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.page + .page {
+  border-top: 1px solid #c5c5c5;
+}
+
+.page a {
+  display: block;
+}

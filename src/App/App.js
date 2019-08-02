@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      qwe
-    </div>
-  );
-}
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+import AsideLeft from '../components/AsideLeft/AsideLeft';
+
+const App = ({ children }) => (
+  <div className="app">
+    <AsideLeft />
+    {/* {children} */}
+  </div>
+)
 
 export default App;
