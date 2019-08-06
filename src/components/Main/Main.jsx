@@ -1,10 +1,10 @@
 import React from 'react';
 
-import styles from './Main.css';
+import './Main.css';
 
 const Main = ({ children }) => (
   <div className="main">
-    <header className={styles.mainHeader}>
+    <header className="mainHeader">
       <input placeholder="Search Apollo Docs" />
     </header>
     <section className="main__section">
@@ -14,10 +14,10 @@ const Main = ({ children }) => (
         <div id="data">
           {children}
         </div>
+        <div id="navigation">
+          <h4>In this section</h4>
+        </div>
       </article>
-      <div id="navigation">
-        <h4>In this section</h4>
-      </div>
     </section>
   </div>
 )
